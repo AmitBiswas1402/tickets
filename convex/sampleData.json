@@ -1,0 +1,120 @@
+[
+    {
+      "name": "Bollywood Beats Live",
+      "description": "A grand night featuring top Indian singers and DJs.",
+      "price": 120,
+      "totalTickets": 5000,
+      "location": "Wembley Stadium, London",
+      "eventDate": 1715270400000,
+      "userId": "U123456"
+    },
+    {
+      "name": "American EDM Festival",
+      "description": "The biggest American DJs live in one explosive event.",
+      "price": 150,
+      "totalTickets": 8000,
+      "location": "Madison Square Garden, New York",
+      "eventDate": 1718908800000,
+      "userId": "U234567"
+    },
+    {
+      "name": "European Rock Night",
+      "description": "An epic concert with Europe's top rock bands.",
+      "price": 100,
+      "totalTickets": 7000,
+      "location": "Olympiastadion, Berlin",
+      "eventDate": 1721500800000,
+      "userId": "U345678"
+    },
+    {
+      "name": "Desi DJ Fiesta",
+      "description": "Indian DJs lighting up the stage with nonstop music.",
+      "price": 90,
+      "totalTickets": 6000,
+      "location": "DY Patil Stadium, Mumbai",
+      "eventDate": 1715990400000,
+      "userId": "U456789"
+    },
+    {
+      "name": "Global Pop Stars Concert",
+      "description": "A night of pop hits with singers from around the world.",
+      "price": 180,
+      "totalTickets": 9000,
+      "location": "National Stadium, Singapore",
+      "eventDate": 1724006400000,
+      "userId": "U567890"
+    },
+    {
+      "name": "Alan Walker Live",
+      "description": "Experience Alan Walker's electrifying beats live.",
+      "price": 130,
+      "totalTickets": 7500,
+      "location": "The O2 Arena, London",
+      "eventDate": 1717603200000,
+      "userId": "U678901"
+    },
+    {
+      "name": "Dua Lipa Future Nostalgia Tour",
+      "description": "Dua Lipa performing her biggest hits live.",
+      "price": 160,
+      "totalTickets": 8500,
+      "location": "Staples Center, Los Angeles",
+      "eventDate": 1720128000000,
+      "userId": "U789012"
+    },
+    {
+      "name": "Justin Bieber Justice World Tour",
+      "description": "Justin Bieber's sensational live performance.",
+      "price": 200,
+      "totalTickets": 9500,
+      "location": "Scotiabank Arena, Toronto",
+      "eventDate": 1719936000000,
+      "userId": "U890123"
+    },
+    {
+      "name": "Arijit Singh Live in Concert",
+      "description": "Soulful night with Arijit Singh's mesmerizing voice.",
+      "price": 110,
+      "totalTickets": 6000,
+      "location": "Indira Gandhi Stadium, New Delhi",
+      "eventDate": 1720915200000,
+      "userId": "U901234"
+    },
+    {
+      "name": "DJ Snake Global Tour",
+      "description": "DJ Snake's high-energy EDM night.",
+      "price": 140,
+      "totalTickets": 7000,
+      "location": "Accor Arena, Paris",
+      "eventDate": 1718486400000,
+      "userId": "U012345"
+    },
+    {
+      "name": "Coldplay World Tour",
+      "description": "An enchanting evening with Coldplay's iconic hits.",
+      "price": 220,
+      "totalTickets": 10000,
+      "location": "Allianz Stadium, Sydney",
+      "eventDate": 1722720000000,
+      "userId": "U135790"
+    },
+    {
+      "name": "The Weeknd After Hours Tour",
+      "description": "Experience The Weeknd's chart-topping songs live.",
+      "price": 190,
+      "totalTickets": 8000,
+      "location": "Mercedes-Benz Stadium, Atlanta",
+      "eventDate": 1721846400000,
+      "userId": "U246801"
+    },
+    {
+      "name": "Ed Sheeran Divide Tour",
+      "description": "A night with Ed Sheeran's greatest acoustic hits.",
+      "price": 175,
+      "totalTickets": 8500,
+      "location": "Croke Park, Dublin",
+      "eventDate": 1719849600000,
+      "userId": "U357912"
+    }
+  ]
+  
