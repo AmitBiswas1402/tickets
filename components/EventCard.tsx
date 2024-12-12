@@ -15,10 +15,10 @@ import {
   StarIcon,
 } from "lucide-react";
 import { useUser } from "@clerk/nextjs";
-// import PurchaseTicket from "./PurchaseTicket";
 import { useRouter } from "next/navigation";
 import { useStorageUrl } from "@/lib/utils";
 import Image from "next/image";
+import { PurchaseTicket } from "./PurchaseTicket";
 
 export default function EventCard({ eventId }: { eventId: Id<"events"> }) {
   const { user } = useUser();
@@ -130,9 +130,9 @@ export default function EventCard({ eventId }: { eventId: Id<"events"> }) {
     if (queuePosition) {
       return (
         <div className="mt-4">
-          {/* {queuePosition.status === "offered" && (
+          {queuePosition.status === "offered" && (
             <PurchaseTicket eventId={eventId} />
-          )} */}
+          )}
           {renderQueuePosition()}
           {queuePosition.status === "expired" && (
             <div className="p-3 bg-red-50 rounded-lg border border-red-100">
