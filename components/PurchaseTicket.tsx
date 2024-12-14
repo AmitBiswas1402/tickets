@@ -9,6 +9,7 @@ import { api } from "@/convex/_generated/api";
 import { useQuery } from "convex/react";
 import { Ticket } from "lucide-react";
 import ReleaseTicket from "./ReleaseTicket";
+import { createStripeCheckoutSession } from "@/actions/createStripeCheckoutSession";
 
 export const PurchaseTicket = ({ eventId }: { eventId: Id<"events"> }) => {
   const router = useRouter();
@@ -51,7 +52,24 @@ export const PurchaseTicket = ({ eventId }: { eventId: Id<"events"> }) => {
     return () => clearInterval(interval);
   }, [offerExpiresAt, isExpired]);
 
-  const handlePurchase = async () => {};
+  const handlePurchase = async () => {
+    if (!user) return;
+
+    try {
+      setIsLoading(true);
+      const {sessionUrl} = await createStripeCheckoutSession({
+        eventId,
+      });
+
+      if (sessionUrl) {
+        router.push(sessionUrl)
+      }
+    } catch (error) {
+      
+    } finally {
+      setIsLoading(false);
+    }
+  };
 
   if (!user || !queuePosition || queuePosition.status !== "offered") {
     return null;
