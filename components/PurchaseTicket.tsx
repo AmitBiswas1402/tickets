@@ -65,7 +65,7 @@ export const PurchaseTicket = ({ eventId }: { eventId: Id<"events"> }) => {
         router.push(sessionUrl)
       }
     } catch (error) {
-      
+      console.error("Failed to create stripe checkout session", error);      
     } finally {
       setIsLoading(false);
     }
